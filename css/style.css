@@ -1,0 +1,46 @@
+html {
+  box-sizing: border-box;
+}
+*,
+*::after,
+*::before {
+  box-sizing: inherit;
+}
+a{
+  color: #000;
+  text-decoration: none;
+}
+body {
+
+}
+.container {
+  max-width: 1170px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+/* -----    section header   ----- */
+
+.header{
+  border-top: 1px solid #2c7de8;
+}
+.heder__inner {
+  display: flex;
+  justify-content: space-between; 
+  align-items: center;
+  height: 87px;
+}
+.menu__list{
+  display: flex;
+}
+.menu__list li{
+  margin-left: 38px;
+}
+.menu__list a{
+  font-size: 14px;
+  font-family: 'Open Sans', sans-serif;
+  color: #2f3f54;
+  font-weight: 700;
+}
+
+/* -----   end section header */
